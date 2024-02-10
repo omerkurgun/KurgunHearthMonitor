@@ -28,6 +28,15 @@ This project utilizes bracelets to collect heart rate and ECG data. The data is 
 - **Frontend:** Html, Css, Javascript, AngularJS
 - **Database:** MongoDB
 
+## Before Installation
+
+Before running the project on your local machine, you need to configure the `config.js` file according to your environment settings.
+
+- Navigate to the root directory of the project.
+- Locate the `config.js` file.
+- Open `config.js` with your favorite text editor.
+- Edit the file to match your local or production environment settings.
+
 ## Installation
 
 Follow these steps to run the project on your local machine:
