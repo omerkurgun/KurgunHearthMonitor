@@ -12,6 +12,7 @@ This project enables users to measure their heart rate through a wearable bracel
 - **ECG Data Visualization:** Users can view their ECG data in real-time on the website.
 - **Real-Time Reporting:** The system reports heart rate and ECG data through graphs.
 - **User Accounts:** Users can log in with their accounts to ensure the privacy and security of their data.
+- **Mobile Integration:** The system integrates with mobile devices (Android or iOS) via Bluetooth to transmit heart rate and ECG data from the bracelet to the system through an API.
 
 ## How to Use?
 
