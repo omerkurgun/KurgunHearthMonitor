@@ -1,0 +1,18 @@
+{
+    "ApplicationRunPort": "1998",
+    "MongoDBConn": "{MongoDBConfig}",
+    "JWTSecret": "Akdeniz Akşamları Bir Başka Oluyor :)",
+    "SessionSecret": "Akdeniz",
+    "ToEmail": "omerkurgun@hotmail.com",
+    "RabbitMQUrl": "{RabbitMqConfig}",
+    "SMTPSettings": {
+        "Host": "{Host}",
+        "Port": 465,
+        "Secure": true,
+        "User": "{UserName}",
+        "Pass": "{Pass}"
+    },
+    "QueueNames": {
+        "SendMailQueue": "SendMailQueue"
+    }
+}

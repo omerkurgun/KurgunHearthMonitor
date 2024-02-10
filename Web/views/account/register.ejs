@@ -1,0 +1,60 @@
+<div class="card card-authentication1 mx-auto my-5" ng-app="myApp" ng-controller="registerController">
+    <div class="card-body">
+        <div class="card-content p-2">
+            <div class="text-center">
+                <img class="heart-logo" src="/theme/images/icon/heart-icon.png" width="50">
+            </div>
+            <div class="card-title text-center py-3">
+                Kurgun Heart Monitor
+                <br>
+                REGİSTER
+            </div>
+            <form ng-submit="Register()">
+                <div class="form-group">
+                    <label class="sr-only">Name and Surname</label>
+                    <div class="position-relative has-icon-right">
+                        <input required ng-model="nameSurname" type="text" class="form-control input-shadow"
+                            placeholder="Name and Surname">
+                        <div class="form-control-position">
+                            <i class="icon-user"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="sr-only">Email</label>
+                     <div class="position-relative has-icon-right">
+                        <input required ng-model="email" type="email" class="form-control input-shadow" placeholder="Email">
+                        <div class="form-control-position">
+                            <i class="icon-envelope-open"></i>
+                        </div>
+                     </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword" class="sr-only">Password</label>
+                    <div class="position-relative has-icon-right">
+                        <input required ng-model="pass" type="password" class="form-control input-shadow"
+                            placeholder="Password">
+                        <div class="form-control-position">
+                            <i class="icon-lock"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="icheck-material-white">
+                        <input required ng-model="termsCheck" type="checkbox" id="user-checkbox">
+                        <label for="user-checkbox">I Agree With Terms &amp; Conditions</label>
+                    </div>
+                </div>
+                <button class="btn btn-light btn-block" ng-disabled="isLoading">
+                    <i ng-if="isLoading" class="fa fa-spin fa-spinner"></i> <span ng-bind="!isLoading ? 'Register' : 'Loading'"></span>
+                </button>
+                <div class="form-group pt-10" ng-bind="resultMessage"></div>
+            </form>
+        </div>
+    </div>
+    <div class="card-footer text-center py-3">
+        <p class="text-warning mb-0">Already have an account? <a href="/account/login"> Login here</a></p>
+    </div>
+</div>
+
+<script src="/theme/js/controller/account/register.js"></script>
