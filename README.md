@@ -42,7 +42,7 @@ Before running the project on your local machine, you need to configure the `con
 Follow these steps to run the project on your local machine:
 
 ```bash
-git clone https://github.com/omerkurgun/KurgunHearthMonitorV2.git
+git clone https://github.com/omerkurgun/KurgunHearthMonitor.git
 cd Web
 npm install
 npm run sendMailConsumer
