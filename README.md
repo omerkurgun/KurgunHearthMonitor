@@ -27,6 +27,7 @@ This project utilizes bracelets to collect heart rate and ECG data. The data is 
 - **Backend:** Node.js, Express.js
 - **Frontend:** Html, Css, Javascript, AngularJS
 - **Database:** MongoDB
+- **Message Broker:** RabbitMQ for handling data transmission queues
 
 ## Before Installation
 
