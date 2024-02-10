@@ -2,6 +2,10 @@
 
 This project enables users to measure their heart rate through a wearable bracelet and view these measurements in real-time on a dedicated website. It allows users to monitor their pulse rate and ECG data in real-time, providing a comprehensive overview of their cardiovascular health.
 
+## Project Status
+
+**NOTE:** This project is currently under development. Some features may not be fully implemented or may be subject to change. We appreciate your patience and interest in this project!
+
 ## Features
 
 - **Heart Rate Measurement:** Users can measure their heart rate using a bracelet.
@@ -22,7 +26,6 @@ This project utilizes bracelets to collect heart rate and ECG data. The data is 
 - **Backend:** Node.js, Express.js
 - **Frontend:** Html, Css, Javascript, AngularJS
 - **Database:** MongoDB
-- **Bracelet Connection:** Bluetooth Low Energy (BLE)
 
 ## Installation
 
